@@ -166,7 +166,30 @@ main {
 }
 
 .mb-10 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.roll-img1, .roll-img2 {
+  width: 231px;
+}
+
+center {
+  margin-top: 5px;
+  font-size: 12.5px;
+}
+
+#GlobalNavi {
+  width: 231px;
+  height: 538px;
+  padding: 5px;
+  margin-bottom: 30px;
+  border: 0.8px lolid #000;
+  align-items: center;
+}
+
+.localNavi-img {
+  width: 219px;
+  height: 76px;
 }
 
 #footer-area {
