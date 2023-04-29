@@ -186,11 +186,10 @@ main {
    margin-bottom: 40px;
 }
 
-
-
 .clearfix {
    display: flex;
    justify-content: space-between;
+   flex-wrap: nowrap;
 }
 
 .side-nav {
@@ -224,6 +223,48 @@ center {
 .localNavi-img {
    width: 219px;
    height: 76px;
+}
+
+.Content {
+
+}
+
+.news {
+   width: 100%;
+   padding-bottom: 7px;
+   margin-bottom: 12px;
+   background-image: url(../images/index_ttl_bg1.gif);
+   background-repeat: no-repeat;
+   background-position: center bottom;
+}
+
+.news-ul {
+   display: contents;
+   padding-top: 7px;
+   margin: 30px;
+}
+
+.news-li {
+   display: flex;
+   justify-content: left;
+   padding-bottom: 9px;
+   margin-bottom: 13px;
+   border-bottom: 1px dashed #aaa;
+}
+
+.news-date {
+   font-size: 12.5px;
+   width: 95px;
+}
+
+.news-il-img {
+   width: 75px;
+}
+
+.news-title {
+   width: 510px;
+   font-size: 12.5px;
+   color: #0e378b;
 }
 
 .toTop {
